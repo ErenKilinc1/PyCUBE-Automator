@@ -13,7 +13,7 @@ Kurumsal ölçekli IP telefon ve ses ağlarında, manuel konfigürasyonlar zaman
 * **Netmiko:** Çoklu cihaz bağlantısı ve CLI komut yönetimi için.
 * **Cisco IOS/IOS-XE:** ISR 4451, 3845 ve CUBE platformları.
 
-## Bağımlılıkları yükleme
+## Bağımlılıkları Yükleme
 pip install -r requirements.txt
 
 ## Script İçerikleri
@@ -24,4 +24,5 @@ pip install -r requirements.txt
 | `backup_config.py` | Cihazın running-config dosyasını yerel dizine tarih bazlı `.txt` olarak yedekler. |
 | `configure_dial_peers.py` | Listelenmiş dial-peer ve destination-pattern'leri toplu uygular. |
 | `remove_dial_peers.py` | Belirtilen dial-peer numaralarını sistemden temizler. |
+
 
